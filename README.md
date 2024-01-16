@@ -1,4 +1,4 @@
-# freeCodeCamp Responsive Web Design Certification Project 01
+# freeCodeCamp Responsive Web Design Certification Project 02
 
 ## Build a Tribute Page
 
