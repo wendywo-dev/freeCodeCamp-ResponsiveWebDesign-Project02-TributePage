@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #eeeeee;
+  font-family: "Playfair Display", serif;
+}
+
+#main {
+  text-align: center;
+}
+
+/* header */
+header {
+  padding: 80px 0 50px;
+}
+
+#title {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+/* figure */
+#img-div {
+  background-color: rgb(247, 247, 247);
+  padding: 50px 0;
+}
+
+#image {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 800px;
+}
+
+/* info list */
+#tribute-info {
+  padding: 50px;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+#tribute-info ul {
+  list-style-position: inside;
+  list-style: none;
+  text-align: left;
+}
+
+#tribute-info ul,
+#quote {
+  width: 500px;
+  margin: 10px auto 50px;
+}
+
+#tribute-info ul li {
+  margin-bottom: 20px;
+}
+
+#tribute-bold {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+#quote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#quote span {
+  position: relative;
+  bottom: -20px;
+  font-size: 5rem;
+}
+
+/* read more section  */
+#tribute-text {
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+#tribute-link {
+  color: rgba(75, 75, 75, 0.719);
+}
+
+#tribute-link:hover {
+  color: rgba(75, 75, 75, 1);
+}
+
+/* footer */
+
+footer {
+  padding: 20px 0 50px;
+  color: white;
+  background-color: rgb(49, 49, 49);
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: rgb(211, 211, 211);
+}
+
+footer a:hover {
+  color: rgb(255, 255, 255);
+}
